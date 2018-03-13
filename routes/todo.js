@@ -41,7 +41,7 @@ router.delete('/:item', function (req, res) {
         res.json(data);
     });
     console.log(req.params.item);
-   
+
 });
 
 
